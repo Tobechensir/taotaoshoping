@@ -1,0 +1,7 @@
+springboot使用mybatis逆向工程只需要
+1.在pom文件中添加mybatis和mysql驱动的依赖
+
+2.在pom文件中添加mybatis逆向工程的依赖
+3.在applicaton.yml文件中配置数据库的基本参数
+4.在resources文件中新建一个generatorConfig.xml文件（用于生成逆向工程的xml文件）
+
